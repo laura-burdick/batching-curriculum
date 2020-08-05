@@ -31,7 +31,7 @@ If you use this code, please cite the following paper:
 - Dependencies: [gensim](https://radimrehurek.com/gensim/), [sklearn](https://scikit-learn.org/), [scipy](https://www.scipy.org/), [nltk](https://www.nltk.org/)
 - Before running this script, there are some variables at the top of the script that you need to set. You will need to make sure that you have all the similarity datasets downloaded and formatted correctly (more information in the python script).
 
-To calculate stability, you can find documented code at [https://github.com/laura-burdick/embeddingStability](this repository).
+To calculate stability, you can find documented code at [here](https://github.com/laura-burdick/embeddingStability).
 
 ## Acknowledgements
 This material is based in part upon work supported by the National Science Foundation (NSF \#1344257), the Defense Advanced Research Projects Agency (DARPA) AIDA program under grant \#FA8750-18-2-0019, and the Michigan Institute for Data Science (MIDAS). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF, DARPA, or MIDAS.
