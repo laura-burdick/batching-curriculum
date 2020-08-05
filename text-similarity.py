@@ -39,7 +39,7 @@ embedding_location = dataFolder+'embedding_datasets/baselines/models/'
 output_location = dataFolder+'embedding_datasets/baselines/lrecExperiments/similarity/'
 
 # Requires one argument: the name of the embedding space that you want to calculate similarity for.
-# The embedding space names are the name of the python scripts in the embedding-spaces/ folder.
+# The embedding space names are the names of the python scripts in the embedding-spaces/ folder.
 # For example, the embedding space name for the default curriculum and basic batching is "no_modifications_batches".
 # By default, this script runs similarity for all ten seeds of word2vec.
 #
