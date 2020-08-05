@@ -35,11 +35,11 @@ If you use this code, please cite the following paper:
 - **pos-tagging.sh**: This script can be run from the command line. It takes three arguments: the name of the embedding space that you want to calculate part-of-speech tagging for, the seed of word2vec that you want to use, and the dataset that you want to use for part-of-speech tagging. The embedding space names are the names of the python scripts in the embedding-spaces/ folder. For example, the embedding space name for the default curriculum and basic batching is "no_modifications_batches". The word2vec seed can be either "all" (to use all the word2vec seeds) or a specific integer. The dataset name should be either "all" (to run both datasets), "answers", or "email".
 - Dependencies: [numpy](https://numpy.org/), [dynet](https://github.com/clab/dynet)
 - Before running this script, there are some variables at the top of the script that you need to set. You will need to make sure that you have the part-of-speech tagging datasets downloaded (more information in the script).
-- **src/**: Base code for part-of-speech tagger, written by Jonathan Kummerfeld (jkummerf@umich.edu). This is a slight variation of code released in a tutorial by Jonathan, available [here](https://jkk.name/neural-tagger-tutorial/).
+- **src/**: Base code for part-of-speech tagger, written by [Jonathan Kummerfeld](http://jkk.name/) (jkummerf@umich.edu). This is a slight variation of code released in a tutorial by Jonathan, available [here](https://jkk.name/neural-tagger-tutorial/).
 
 To do text classification, download [fastText](https://fasttext.cc/).
 
-To calculate stability, you can find documented code at [here](https://github.com/laura-burdick/embeddingStability).
+To calculate stability, you can find documented code [here](https://github.com/laura-burdick/embeddingStability).
 
 ## Acknowledgements
 This material is based in part upon work supported by the National Science Foundation (NSF \#1344257), the Defense Advanced Research Projects Agency (DARPA) AIDA program under grant \#FA8750-18-2-0019, and the Michigan Institute for Data Science (MIDAS). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF, DARPA, or MIDAS.
