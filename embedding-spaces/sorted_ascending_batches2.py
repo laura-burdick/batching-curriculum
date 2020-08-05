@@ -7,7 +7,10 @@ import math
 from tqdm import tqdm
 from common import *
 
-# Read in command line arguments
+# Requires two command line arguments:
+# the seed of word2vec to use (can either be an int, or the string "all" to train with all ten seeds), and
+# the number of batches to train
+#
 if len(sys.argv) < 3:
 	print('Takes two arguments: seed of word2vec, number of batches')
 	exit(2)

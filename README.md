@@ -17,7 +17,7 @@ If you use this code, please cite the following paper:
 ## Code Included
 **embedding-spaces/**: This folder includes code for building the embedding spaces for the different curriculum and batching strategies.
 - To train embedding spaces, each script can be run from the command line. Each script requires two command line arguments: the seed of word2vec to use (can either be an int, or the string "all" to train with all ten seeds), and the number of batches to train.
-- Dependencies: [https://radimrehurek.com/gensim/][gensim], [https://github.com/tqdm/tqdm][tqdm]
+- Dependencies: [https://radimrehurek.com/gensim/](gensim), [https://github.com/tqdm/tqdm](tqdm)
 - **common.py**: This is common code required by all the different scripts in the folder, so make sure to look at this first. There are some path variables that need to be set at the top before you can run it.
 - **no_modifications_batches.py**: Default curriculum, basic batching
 - **no_modifications_batches2.py**: Default curriculum, cumulative batching
@@ -25,6 +25,13 @@ If you use this code, please cite the following paper:
 - **sorted_ascending_batches2.py**: Ascending curriculum, cumulative batching
 - **sorted_descending_batches.py**: Descending curriculum, basic batching
 - **sorted_descending_batches2.py**: Descending curriculum, cumulative batching
+
+**text-similarity.py**: Code to calculate sentence and phrase similarity for an embedding space
+- This script can be run from the command line. It takes one argument: the name of the embedding space that you want to calculate similarity for. The embedding space names are the names of the python scripts in the embedding-spaces/ folder. For example, the embedding space name for the default curriculum and basic batching is "no_modifications_batches". By default, this script runs similarity for all ten seeds of word2vec.
+- Dependencies: [https://radimrehurek.com/gensim/](gensim), [https://scikit-learn.org/](sklearn), [https://www.scipy.org/](scipy), [https://www.nltk.org/](nltk)
+- Before running this script, there are some variables at the top of the script that you need to set. You will need to make sure that you have all the similarity datasets downloaded and formatted correctly (more information in the python script).
+
+To calculate stability, you can find documented code at [https://github.com/laura-burdick/embeddingStability](this repository).
 
 ## Acknowledgements
 This material is based in part upon work supported by the National Science Foundation (NSF \#1344257), the Defense Advanced Research Projects Agency (DARPA) AIDA program under grant \#FA8750-18-2-0019, and the Michigan Institute for Data Science (MIDAS). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF, DARPA, or MIDAS.
