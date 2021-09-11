@@ -6,16 +6,22 @@ Language and Information Technologies (LIT)
 University of Michigan
 
 ## Introduction
-The code in this repository was used in Chapter 5 of Laura Burdick's Ph.D. thesis. I have tried to document it well, but at the end of the day, it is research code, so if you have any problems using it, please get in touch with Laura Burdick (lburdick@umich.edu).
+The code in this repository was used in an MDPI paper, "To Batch or Not to Batch? Comparing Batching and Curriculum Learning Strategies across Tasks and Datasets". I have tried to document it well, but at the end of the day, it is research code, so if you have any problems using it, please get in touch with Laura Burdick (lburdick@umich.edu).
 
 ## Citation Information
 If you use this code, please cite the following paper:
 ```
-@phdthesis{burdickThesis2020,
-  author  = "Burdick, Laura",
-  title   = "Understanding Word Embedding Stability Across Languages and Applications",
-  school  = "University of Michigan",
-  year    = "2020"
+@Article{math9182234,
+AUTHOR = {Burdick, Laura and Kummerfeld, Jonathan K. and Mihalcea, Rada},
+TITLE = {To Batch or Not to Batch? Comparing Batching and Curriculum Learning Strategies across Tasks and Datasets},
+JOURNAL = {Mathematics},
+VOLUME = {9},
+YEAR = {2021},
+NUMBER = {18},
+ARTICLE-NUMBER = {2234},
+URL = {https://www.mdpi.com/2227-7390/9/18/2234},
+ISSN = {2227-7390},
+DOI = {10.3390/math9182234}
 }
 ```
 
